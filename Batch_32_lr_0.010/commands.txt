@@ -1,0 +1,29 @@
+echo 'python3 CNN_normal.py "CNN_normal.pkl"'
+echo $(python3 CNN_normal.py "CNN_normal.pkl")
+
+echo 'python3 Test_normal.py "CNN_normal.pkl"'
+echo $(python3 Test_normal.py "CNN_normal.pkl")
+
+echo 'python3 CNN_normal_parallel.py "CNN_normal_parallel.pkl"'
+echo $(python3 CNN_normal_parallel.py "CNN_normal_parallel.pkl")
+
+echo 'python3 Test_normal.py "CNN_normal_parallel.pkl"'
+echo $(python3 Test_normal.py "CNN_normal_parallel.pkl")
+
+echo 'python3 CNN_unrolled.py "CNN_unrolled.pkl"'
+echo $(python3 CNN_unrolled.py "CNN_unrolled.pkl")
+
+echo 'python3 Test_unrolled.py "CNN_unrolled.pkl"'
+echo $(python3 Test_unrolled.py "CNN_unrolled.pkl")
+
+echo 'python3 CNN_unrolled_parallel.py "CNN_unrolled_parallel.pkl"'
+echo $(python3 CNN_unrolled_parallel.py "CNN_unrolled_parallel.pkl")
+
+echo 'python3 Test_unrolled.py "CNN_unrolled_parallel.pkl"'
+echo $(python3 Test_unrolled.py "CNN_unrolled_parallel.pkl")
+
+echo 'python3 CNN_cuda.py "CNN_cuda.pkl"'
+echo $(python3 CNN_cuda.py "CNN_cuda.pkl")
+
+echo 'python3 Test_cuda.py "CNN_cuda.pkl"'
+echo $(python3 Test_cuda.py "CNN_cuda.pkl")

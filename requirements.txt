@@ -1,0 +1,5 @@
+numpy==1.17.3
+mnist==0.2.2
+tqdm
+matplotlib 
+cupy
